@@ -25,13 +25,13 @@ while(1):
         print(f"덧셈: {x}+{y}는 {x+y}입니다")
     elif (choose==2):
         x, y = select("뺄셈")
-        print(f"뺄셈: {x}-{y}는 {x+y}입니다")
+        print(f"뺄셈: {x}-{y}는 {x-y}입니다")
     elif (choose==3):
         x, y = select("곱셈")
-        print(f"곱셈: {x}*{y}는 {x+y}입니다")
+        print(f"곱셈: {x}*{y}는 {x*y}입니다")
     elif (choose==4):
         x, y = select("나눗셈")
-        print(f"나눗셈: {x}/{y}는 {x+y}입니다")
+        print(f"나눗셈: {x}/{y}는 {x/y}입니다")
     elif (choose==5):
         print("종료합니다")
         break
